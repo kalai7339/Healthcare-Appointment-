@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DB Foundations - Hackathon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>DB Foundations - Hackathon</h1>
+    <p><span class="red">Use Case:</span> Centralized Healthcare Appointment Management Using Relational Databases</p>
+  </header>
+
+  <main>
+    <!-- Scenario -->
+    <section id="scenario">
+      <h2 class="red">Scenario:</h2>
+      <p>
+        A multispecialty hospital chain operates across multiple locations, each using isolated systems to manage appointments. 
+        This has led to issues like double bookings, incomplete patient histories, and administrative inefficiencies. 
+        To streamline operations and enable centralized data access, the hospital wants to implement a robust relational 
+        database system using platforms such as MySQL Explorer, Oracle Database Explorer, and Oracle SQL Explorer.
+      </p>
+    </section>
+
+    <!-- Problem Statement -->
+    <section id="problem">
+      <h2 class="red">Problem Statement:</h2>
+      <p>
+        The hospital group needs a unified database system to manage doctor schedules, patient appointments, departmental workflows, 
+        and resource usage across all branches. The system should prevent appointment conflicts, provide real-time availability checks, 
+        support cross-location queries, and generate data-driven reports. It must also be scalable and compatible with both MySQL 
+        and Oracle SQL environments.
+      </p>
+    </section>
+
+    <!-- Key Points -->
+    <section id="key-points">
+      <h2 class="red">Key Points to Consider:</h2>
+      <ul>
+        <li>Analyze core entities like doctors, patients, departments, branches, appointments, and time slots.</li>
+        <li>Design a relational schema that supports:
+          <ul>
+            <li>Real-time appointment booking</li>
+            <li>Conflict detection and resolution</li>
+            <li>Doctor and department availability tracking</li>
+          </ul>
+        </li>
+        <li>Provide mechanisms to cancel or reschedule appointments.</li>
+        <li>Enable reporting on doctor workload, appointment trends, and no-show statistics.</li>
+        <li>Ensure compatibility across MySQL and Oracle SQL environments.</li>
+        <li>Optimize schema and queries for scalability and performance in high-traffic environments.</li>
+      </ul>
+    </section>
+
+    <!-- Expected Output -->
+    <section id="output">
+      <h2 class="red">Expected Output for Level-1</h2>
+      <h3>Ideation & Solution Documentation</h3>
+      <p><span class="highlight">Objective:</span> Understand the problem and propose a structured solution.</p>
+
+      <h3>Deliverables:</h3>
+      <ul>
+        <li>Clear explanation of the use case and assumptions</li>
+        <li>ER diagram representing all major entities and their relationships</li>
+        <li>Normalized relational schema (table names, attributes, data types, constraints)</li>
+        <li>Booking flow logic (how conflict-free scheduling will be handled)</li>
+        <li>Outline of key SQL operations to be implemented in Level 2</li>
+        <li>Platform compatibility strategy for MySQL and Oracle SQL</li>
+      </ul>
+    </section>
+
+    <!-- Collapsible Section -->
+    <button class="collapsible">Click to Toggle Summary</button>
+    <div class="content">
+      <p>
+        This hackathon project focuses on designing a centralized healthcare appointment system using relational databases. 
+        The main goals are conflict-free scheduling, availability tracking, and ensuring compatibility with MySQL and Oracle SQL.
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 DB Foundations Hackathon | All Rights Reserved
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
